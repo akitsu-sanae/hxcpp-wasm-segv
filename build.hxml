@@ -1,0 +1,7 @@
+Test.hx
+-cpp out
+-D emcc
+#-D mac
+# -D windows
+-D linux
+

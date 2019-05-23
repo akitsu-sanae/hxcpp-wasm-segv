@@ -1,0 +1,32 @@
+<xml>
+  <files id='haxe'>
+    <compilerflag value='-I.'/>
+    <compilerflag value='-s' />
+    <compilerflag value='ASSERTIONS=1' />
+    <compilerflag value='-s' />
+    <compilerflag value='EXPORT_ALL=1' />
+    <compilerflag value='-s' />
+    <compilerflag value='EXPORTED_FUNCTIONS=[&apos;_Test_run&apos;]' />
+    <compilerflag value='-s' />
+    <compilerflag value='EXTRA_EXPORTED_RUNTIME_METHODS=[&apos;ccall&apos;]' />
+    <compilerflag value='-O0' />
+    <compilerflag value='-g4' />
+    <file name='${PROJECT_ROOT_PATH}/extern.cpp' />
+  </files>
+
+  <target id='haxe'>
+    <flag value='-s' />
+    <flag value='ASSERTIONS=1' />
+    <flag value='-s' />
+    <flag value='EXPORT_ALL=1' />
+    <flag value='-s' />
+    <flag value='EXPORTED_FUNCTIONS=[&apos;_Test_run&apos;]' />
+    <flag value='-s' />
+    <flag value='EXTRA_EXPORTED_RUNTIME_METHODS=[&apos;ccall&apos;]' />
+    <flag value='-O0' />
+    <flag value='-g4' />
+
+  </target>
+</xml>
+
+
