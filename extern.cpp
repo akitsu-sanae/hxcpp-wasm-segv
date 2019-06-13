@@ -1,8 +1,12 @@
 #include "Test.h"
 
 extern "C" {
-  void Test_run() {
-      return Test_obj::run();
-  }
+    extern void hxcpp_set_top_of_stack();
+
+    void Test_run() {
+        hxcpp_set_top_of_stack();
+        Test_obj::run();
+    }
+
 }
 
